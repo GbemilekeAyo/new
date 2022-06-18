@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'lexend deca';
+}
+
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.container{
+    width: 1140;
+display: flex;
+background: whitesmoke;
+padding: 10% 6%;
+
+}
+
+@media(max-width:700px){
+    .container{
+        width: 375px;
+    }
+}
+
+.box{
+    position: relative;
+    width: 80%;
+    padding: 10% 12%;
+    text-align: left;
+    margin-top: 40px;
+   
+    
+}
+.box h1{
+color: hsl(0,0%,95%);
+font-size: 25px;
+margin-top: 10%;
+font-family: 'lexend deca';
+
+
+}
+
+.box p{
+ line-height: 1.5rem;
+ margin-top: 12%;
+ color: hsla(0, 0%, 100%, 0.75);
+ font-family: 'deca';
+ margin-bottom: 30%;
+}
+
+
+.box a{
+    text-decoration: none;
+    position: relative;
+    background:hsl(0,0%,95%) ;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+
+@media(max-width:700px){
+    .box a{
+        font-size: 10px;
+    }
+}
+
+
+
+.box-1{ 
+   background: hsl(31,77%,52%); 
+   height: 72vh; 
+   min-width: 100px;
+   flex-grow: 1;
+   border-radius: 3px;
+   
+}
+.box-1 img{
+    width: 50px;
+    
+    
+}
+
+.box-1 a{
+    color:hsl(31,77%,52%) ;
+}
+
+
+.box-2{
+background: hsl(184,100%,22%);
+height: 72vh;
+min-width: 100px;
+flex-grow: 1;
+}
+.box-2 img{
+    width: 50px;
+}
+.box-2 a{
+    color: hsl(184,100%,22%) ;
+}
+
+.box-3{
+    background: hsl(179,100%,13%);
+    height: 72vh;
+    min-width: 100px;
+    flex-grow: 1;
+    border-radius: 3px;
+}
+
+.box-3 img{
+    width: 50px;
+}
+.box-3 a{
+    color: hsl(179,100%,13%) ;
+}
